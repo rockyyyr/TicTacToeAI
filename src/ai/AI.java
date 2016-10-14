@@ -136,7 +136,6 @@ public class AI {
 
 		GameState gs = getResult(gameStates, player);
 
-		// unsure why this works
 		if (reset)
 			gs.setBoard(current);
 
